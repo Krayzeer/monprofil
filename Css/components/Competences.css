@@ -1,0 +1,161 @@
+.Competences_container {
+  padding-top: 0;
+  -webkit-box-shadow: 0px 0px 15px 1px #000000;
+}
+
+.Comp_titre {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 3% 3% 3% 3%;
+  align-items: center;
+  justify-content:  center;
+  background-color: #f9f7f5;
+  /*box-shadow: 0 2px 10px rgb(0 0 0 / 50%);*/
+}
+
+
+.comp_svg img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 450px;
+  filter: drop-shadow( 4px 4px 8px rgba(0, 0, 0, .7));
+  padding: 10%;
+}
+
+.compcontenu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1% 0 0%;
+  width: 60%;
+}
+
+.compcontenu .compcontenu_text {
+  width: 100%;
+}
+
+.compcontenu_all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.competences_texte {
+  width: 30%;
+  margin: 0 3% 2% 0;
+}
+
+
+.skill {
+    margin-bottom: 1%;
+} 
+
+.skill-bar {
+  background-color: #ececec;
+  height: 10px;
+  width: 100%;
+}
+
+.skill-bar .level {
+    background-color: #34495e;
+    height: 10px;
+}
+
+.competences_texte p {
+  font-style: Arial, sans-serif;
+  color: black;
+  font-weight : normal;
+  font-size: 0.80rem;
+  margin-bottom: 2%;
+}
+
+.compcontenu_text h3 {
+  border: 2px solid #34495e;
+  color: #012751;
+  font-weight: bold;
+  font-size: 2rem ;
+  text-align: center;
+  margin:  3% 0 3% 0;
+  padding: 0.5rem;
+}
+
+.competences_texte h4 {
+  font-style: Arial, sans-serif;
+  color: #34495e;
+  font-weight : bold;
+  font-size: 1.2em;
+  margin: 0 0 1% 0;
+}
+
+.competences_texte hr {
+    border: 1px solid #909da9;
+    width: 50%;
+    opacity: 1;
+    margin: 0 0 1% 0;
+}
+
+.skill label {
+  color: #34495e;
+  font-weight: bold;
+  font-size: 0.9rem ;
+  text-align: left;
+  margin: 0% 0 1% 0;
+}
+
+.skills-holder .croix_texte ul {
+  list-style: url('../../Images/Competence/check.png');
+}
+
+.skills-holder .data_texte ul {
+  list-style: url('../../Images/Competence/data.png');
+}
+
+.skills-holder .outils_texte ul {
+  list-style: georgian outside;
+}
+
+.skills-holder ul {
+  margin: 2% 0 0 -4%;
+}
+
+.level.html {width: 90%}
+.level.css {width: 85%}
+.level.Python {width: 20%}
+
+
+
+
+@media screen and (max-width: 992px) {
+.comp_svg img {
+  width: 200px;
+}
+
+.compcontenu {
+  width: 100%;
+  margin:  0% 5% 1% 5%;
+}
+
+.Comp_titre {
+  justify-content: center;
+  padding: 8% 2% 8% 2%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.comp_svg img {
+  width: 200px;
+}
+
+.compcontenu {
+  width: 100%;
+  margin:  0% 5% 1% 5%;
+}
+
+.Comp_titre {
+  justify-content: center;
+}
+
+}
