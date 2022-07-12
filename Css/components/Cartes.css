@@ -236,7 +236,7 @@
 
 @media screen and (max-width: 600px) {
 .carte_entier {
-  height: 250px;
+  height: 300px;
   border-radius: 40px;
   padding: 3%;
 }
@@ -244,8 +244,7 @@
 
 .cartes_header {
   gap: 3%;
-  height: 80px;
-  border-radius: 0;
+  height: 70px;
 }
 
 .cartes_container h4 {

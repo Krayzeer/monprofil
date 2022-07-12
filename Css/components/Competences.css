@@ -164,12 +164,9 @@
 }
 
 .competences_texte {
-  width: 100%;
+  width: 45%;
   margin: 0 3% 2% 0;
 }
 
-.compcontenu_all {
-  justify-content: center;
-}
 
 }
