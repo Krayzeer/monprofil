@@ -1,7 +1,7 @@
 .Contact {
 	height: 200px;
 	background-color: #012751;
-	padding: 0 5%;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -13,6 +13,7 @@
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	flex-direction: row;
+	width: 105%;
 }
 
 .contactlinkedin {
