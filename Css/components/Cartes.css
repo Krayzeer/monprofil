@@ -188,18 +188,19 @@
 }
 
 .cartes_container h4 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  margin: 10% 0 3% 0;
 }
 
 
 .cartes_container p {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   margin: 0 0 1% 0;
 }
 
 
 .cartes_container li {
-  font-size: 0.4rem;
+  font-size: 0.3rem;
   text-align: left;
 }
 
@@ -210,10 +211,10 @@
 
 
 .cartes_header_text h3 {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 } 
 .cartes_header_text h5 {   
-  font-size: 0.4rem;
+  font-size: 0.2rem;
 }
 
 .cartes_header img {
@@ -224,6 +225,10 @@
 
 .cartes_container hr { 
   height: 2px;
+}
+
+.cartes_dessus {
+  width: 0px;
 }
 
 }
@@ -243,18 +248,19 @@
 }
 
 .cartes_container h4 {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  margin: 10% 0 3% 0;
 }
 
 
 .cartes_container p {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   margin: 0 0 1% 0;
 }
 
 
 .cartes_container li {
-  font-size: 0.4rem;
+  font-size: 0.3rem;
   text-align: left;
 }
 
@@ -265,10 +271,10 @@
 
 
 .cartes_header_text h3 {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 } 
 .cartes_header_text h5 {   
-  font-size: 0.4rem;
+  font-size: 0.3rem;
 }
 
 .cartes_header img {
@@ -279,6 +285,10 @@
 
 .cartes_container hr { 
   height: 2px;
+}
+
+.cartes_dessus {
+  width: 0px;
 }
 
 }

@@ -10,9 +10,9 @@
 .contactcontainer {
 	display: flex;
 	align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	flex-direction: row;
 }
 
 .contactlinkedin {
@@ -89,6 +89,12 @@
 	font-size: 1rem;
 	text-align: center;
 }
+.btncontact {
+    padding: 8px 16px;
+}
+.Contact img {
+	width: 40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -96,5 +102,11 @@
 	font-size: 1rem;
 	text-align: center;
 }
+.btncontact {
+    padding: 8px 16px;
+}
+.Contact img {
+	width: 40px;
+  }
 
 }

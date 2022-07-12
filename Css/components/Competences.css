@@ -142,6 +142,11 @@
   padding: 8% 2% 8% 2%;
 }
 
+.competences_texte {
+  width: 100%;
+  margin: 0 3% 2% 0;
+}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -156,6 +161,11 @@
 
 .Comp_titre {
   justify-content: center;
+}
+
+.competences_texte {
+  width: 100%;
+  margin: 0 3% 2% 0;
 }
 
 }
