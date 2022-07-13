@@ -22,7 +22,7 @@
 .Langues_Certifs .Langues_Certifs_card .Langues_Certifs_cartes {
     width: 350px;
     height: 200px;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 
 .Langues_Certifs .Langues_Certifs_card .Langues_Certifs_cartes.partie_une {
@@ -122,8 +122,28 @@
 
 @media screen and (max-width: 992px) {
 .complementaire {
-    padding-top:  6%;
-}   
+    padding-top:  10%;
+    padding-bottom: 10%;
 }
 
+.Langues_Certifs .Langues_Certifs_card .Langues_Certifs_cartes {
+    width: 250px;
+    height: 200px;
+    transition: 0.8s;
+}
+
+.Langues_Certifs{
+    gap: 5%;
+}
+
+
+}
+    
+    @media screen and (max-width: 600px) {
+        .Langues_Certifs .Langues_Certifs_card .Langues_Certifs_cartes {
+            width: 250px;
+            height: 200px;
+            transition: 0.5s;
+        }
+    }
 
