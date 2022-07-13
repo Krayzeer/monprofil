@@ -169,7 +169,7 @@
 
 @media screen and (max-width: 992px) {
 .carte_entier {
-  height: 300px;
+  height: 400px;
   border-radius: 40px;
   padding: 3%;
 }
@@ -237,7 +237,7 @@
 
 @media screen and (max-width: 600px) {
 .carte_entier {
-  height: 320px;
+  height: 350px;
   border-radius: 40px;
   padding: 3%;
 }
