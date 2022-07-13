@@ -23,7 +23,7 @@
 .carte_entier {
   position: relative;
   display: block;
-  height: 450px;
+  height: 500px;
   width: 75%;
   border-radius: 50px;
   overflow: hidden;
