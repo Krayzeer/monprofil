@@ -23,8 +23,8 @@
 .carte_entier {
   position: relative;
   display: block;
-  height: 425px;
-  width: 35%;
+  height: 450px;
+  width: 75%;
   border-radius: 50px;
   overflow: hidden;
   background-color: white;
@@ -44,9 +44,9 @@
 .cartes_container h4 {
   text-align: left;
   color: #012751;
-  font-size: 1.50rem;
+  font-size: 2rem;
   font-family: system-ui;
-  margin:  0% 0 3% 0; 
+  margin:  0% 0 2% 0; 
 }
 
 
@@ -55,12 +55,12 @@
   font-weight: normal;
   text-align: left;
   color: black;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   margin-bottom: 1%;
 }
 
 .cartes_container ul {
-  margin: 2% 2% 0 2%;
+  margin: 1% 1% 0 3%;
   padding: 0;
 }
 
@@ -69,7 +69,7 @@
   text-align: left;
   font-weight: normal;
   color: black;
-  font-size: 0.70rem;
+  font-size: 0.80rem;
   margin:  0 0 1% 0;
   list-style: georgian outside; 
 }
@@ -160,11 +160,11 @@
 
 .cartes_container hr { 
     display: block;
-    height: 4px;
+    height: 2px;
     border-radius: 20px;
     width: 10%;
     background-color: #012751;
-    margin: 0 0 3% 0;
+    margin: 0 0 2% 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -180,6 +180,7 @@
 
 .mescartes {
   padding-bottom: 10%;
+  padding-top: 5%;
 }
 
 .cartes_header {
@@ -188,19 +189,19 @@
 }
 
 .cartes_container h4 {
-  font-size: 0.7rem;
-  margin: 10% 0 3% 0;
+  font-size: 1rem;
+  margin: 5% 0 3% 0;
 }
 
 
 .cartes_container p {
-  font-size: 0.4rem;
+  font-size: 0.8rem;
   margin: 0 0 1% 0;
 }
 
 
 .cartes_container li {
-  font-size: 0.3rem;
+  font-size: 0.6rem;
   text-align: left;
 }
 
@@ -211,10 +212,10 @@
 
 
 .cartes_header_text h3 {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 } 
 .cartes_header_text h5 {   
-  font-size: 0.2rem;
+  font-size: 0.6rem;
 }
 
 .cartes_header img {
@@ -248,19 +249,19 @@
 }
 
 .cartes_container h4 {
-  font-size: 0.7rem;
-  margin: 10% 0 3% 0;
+  font-size: 1rem;
+  margin: 5% 0 3% 0;
 }
 
 
 .cartes_container p {
-  font-size: 0.4rem;
+  font-size: 0.8rem;
   margin: 0 0 1% 0;
 }
 
 
 .cartes_container li {
-  font-size: 0.3rem;
+  font-size: 0.6rem;
   text-align: left;
 }
 
@@ -271,10 +272,10 @@
 
 
 .cartes_header_text h3 {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 } 
 .cartes_header_text h5 {   
-  font-size: 0.3rem;
+  font-size: 0.6rem;
 }
 
 .cartes_header img {
@@ -289,6 +290,11 @@
 
 .cartes_dessus {
   width: 0px;
+}
+
+.mescartes {
+  padding-bottom: 10%;
+  padding-top: 5%;
 }
 
 }
