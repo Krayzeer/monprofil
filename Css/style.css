@@ -50,6 +50,7 @@ footer p {
   border-radius: 100%;
   text-decoration: none;
   text-align: center;
+  z-index: 1;
 }
 
 
