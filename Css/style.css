@@ -1,0 +1,71 @@
+@import url("components/Banner.css");
+@import url("components/Profil.css");
+@import url("components/Menu.css");
+@import url("components/Formation.css");
+@import url("components/Langues.css");
+@import url("components/Competences.css");
+@import url("components/Contact.css");
+@import url("components/Cartes.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e9e3dd;
+  width: 100%;
+}
+
+
+h1 {
+  color: #012751;
+  font-weight: bold;
+  font-size: 2rem ;
+  text-align: center;
+  margin:  0% 0 1% 0;
+}
+
+footer {
+  background-color: #012751;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  font-style: system-ui;
+  font-weight: lighter;
+  margin: 0 0 0 0;
+  font-size: 0.8rem;
+}
+
+.buttontop img {
+  width: 40px;
+  position: fixed;
+  bottom:  6%;
+  right: 2%;
+  color: black;
+  border-radius: 100%;
+  text-decoration: none;
+  text-align: center;
+  z-index: 1;
+}
+
+
+.buttontop img:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 992px) {
+.buttontop img {
+  width: 30px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.buttontop img {
+  width: 30px;
+}
+}
