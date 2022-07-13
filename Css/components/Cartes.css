@@ -237,7 +237,7 @@
 
 @media screen and (max-width: 600px) {
 .carte_entier {
-  height: 300px;
+  height: 320px;
   border-radius: 40px;
   padding: 3%;
 }
