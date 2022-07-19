@@ -149,12 +149,12 @@
 
 
 .carousel-control-prev-icon {
-  background-color: black;
+  background-color: black !important;
   padding:  15px 10px;
 }
 
 .carousel-control-next-icon {
-  background-color: black;
+  background-color: black !important;
   padding:  15px 10px;
 }
 
@@ -245,7 +245,7 @@
 
 .cartes_header {
   gap: 3%;
-  height: 70px;
+  height: 80px;
 }
 
 .cartes_container h4 {
